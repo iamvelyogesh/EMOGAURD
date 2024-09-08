@@ -1,0 +1,179 @@
+{
+  "Header": {
+    "title": "LET'S ANALYSE WITH PEOPLE MINDS",
+    "paragraph": "OUR TOOL WILL HELP YOU OUT TO SORT OUT THINGS"
+  },
+  "About": {
+    "paragraph": " Welcome to Team Hack_Elite_24, where innovation meets passion! We are a diverse group of tech enthusiasts united by the common goal of transforming sentiment analysis through cutting-edge artificial intelligence. Our mission is to provide a revolutionary platform that goes beyond traditional methods, utilizing advanced machine learning and natural language processing. Our website is a testament to our dedication, featuring a user-friendly interface powered by state-of-the-art technologies. Meet the faces behind the code—Team Hack_Elite_24 is a collective of skilled individuals committed to staying at the forefront of technological advancements. Join us on this exciting journey as we redefine the future of sentiment analysis. Thank you for being a part of our story!",
+    "Why": [
+      "Cutting-Edge Technology",
+      "User-Friendly Interface",
+      "Unparalleled Accuracy",
+      "Dedicated Team"
+    ],
+    "Why2": [
+      "Innovation-Driven",
+      "Transparent Process",
+      "Responsive Support",
+      "Community Engagement"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Output Podanum !!",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+  
+    {
+      "icon": "fa fa-music",
+      "name": "Audio Analysis",
+      "text": "Test of Audio",
+      "route": "audio"
+    },
+    {
+      "icon": "fa fa-video-camera",
+      "name": "Video Analysis",
+      "text": "Test of Video",
+      "route": "video"
+    },
+  
+  
+    {
+      "icon": "fa fa-image",
+      "name": "Image Analysis",
+      "text": "Test of Language",
+      "route": "image"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Priyadharshini"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Raj kumar"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Anwisha Zaaman"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Vel Yogesh"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Sumalini"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Hi Guys\"",
+      "name": "Vignesh N"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "Coimbatore ",
+    "phone": "+91 944******8",
+    "email": "Hack_Elite_24@gmail.com",
+    "facebook": "https://www.facebook.com/",
+    "twitter": "https://www.instagram.com/?hl=en",
+    "youtube": "https://www.youtube.com/"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-twitter",
+      "title": "Twitter Analysis",
+      "text": "Analysis of Twitter",
+      "route": "tweet"
+    },
+    {
+      "icon": "fa fa-youtube",
+      "title": "Youtube",
+      "text": "Analysis of Youtube",
+      "route": "youtube"
+    },
+    {
+      "icon": "fa fa-reddit",
+      "title": "Reddit Analysis",
+      "text": "Analysis of Reddit",
+      "route": "reddit"
+    },
+    {
+      "icon": "fa fa-facebook",
+      "title": "Facebook Analysis",
+      "text": "Analysis of Facebook",
+      "route": "facebook"
+    }
+  ]
+}

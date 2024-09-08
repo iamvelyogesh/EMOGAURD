@@ -1,0 +1,200 @@
+.asddc {
+  color: #4F6072;
+  height: 70px;
+}
+
+$skin: #4db6ac;
+
+.v {
+  font-family: 'Roboto', sans-serif;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.xux {
+  margin-top: 100px;
+
+}
+
+.container11s {
+  position: absolute;
+  left: 50%;
+  margin-top: 24%;
+  transform: translate(-50%, -50%);
+  width: 1400px;
+  height: 550px;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+}
+
+.container234 {
+  position: absolute;
+  left: 50%;
+  margin-top: 30%;
+  transform: translate(-50%, -50%);
+  width: 1400px;
+  height: 550px;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+}
+
+.file {
+  width: 300px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  animation: fade 0.35s ease both;
+}
+
+.progress {
+  width: 175px;
+  height: 5px;
+  border: solid 1px lightgray;
+  border-radius: 2px;
+  background: linear-gradient(to left, rgba($skin, .2), rgba($skin, .8)) no-repeat;
+  background-size: 100% 100%;
+  &.active {
+    animation: progress 30s linear;
+  }
+}
+
+.upload {
+  position: relative;
+  width: 510px;
+  min-height: 205px;
+  box-sizing: border-box;
+  margin-top: -200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(black, .2);
+  padding-bottom: 20px;
+  background: #fff;
+  animation: fadeup 0.5s 0.5s ease both;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.upload-files {
+  header {
+    background: $skin;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    p {
+      color: #fff;
+      font-size: 40px;
+      margin: 0;
+      padding: 50px 0;
+      i {
+        transform: translateY(20px);
+        opacity: 0;
+        font-size: 30px;
+        animation: fadeup 0.5s 1s ease both;
+      }
+      .up {
+        font-weight: bold;
+        transform: translateX(-20px);
+        display: inline-block;
+        opacity: 0;
+        animation: faderight 0.5s 1.5s ease both;
+      }
+      .load {
+        display: inline-block;
+        font-weight: 100;
+        margin-left: -8px;
+        transform: translateX(-20px);
+        opacity: 0;
+        animation: faderight 1s 1.5s ease both;
+        margin-left: 5px;
+      }
+    }
+  }
+
+  .body {
+    text-align: center;
+    padding: 50px 0;
+    padding-bottom: 30px;
+    &.hidden {
+      display: none;
+    }
+    input {
+      visibility: hidden;
+    }
+    i {
+      font-size: 65px;
+      color: lightgray;
+    }
+    p {
+      font-size: 14px;
+      padding-top: 15px;
+      line-height: 1.4;
+      b,
+      a {
+        color: $skin;
+      }
+    }
+    &.active {
+      border: dashed 2px $skin;
+      i {
+        box-shadow: 0 0 0 -3px #fff,
+        0 0 0 lightgray,
+        0 0 0 -3px #fff,
+        0 0 0 lightgray;
+        animation: file .5s ease both;
+      }
+      // Rest of the styles...
+    }
+  }
+  // Remaining styles...
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeup {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes faderight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes progress {
+  from {
+    background-size: 0 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+@keyframes file {
+  50% {
+    box-shadow: -8px 8px 0 -3px #fff,
+    -8px 8px 0 lightgray,
+    -8px 8px 0 -3px #fff,
+    -8px 8px 0 lightgray;
+  }
+  75%, 100% {
+    box-shadow: -8px 8px 0 -3px #fff,
+    -8px 8px 0 lightgray,
+    -16px 16px 0 -3px #fff,
+    -16px 16px 0 lightgray;
+  }
+}
+
+// Add the rest of your CSS styles below...
